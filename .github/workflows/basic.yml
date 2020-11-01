@@ -17,5 +17,3 @@ jobs:
       - name: Run a multi-line script
       - run: echo Add other actions to build,
       - run: echo test, and deploy your project.
-      - name: The environment variables
-      - run: printenv
