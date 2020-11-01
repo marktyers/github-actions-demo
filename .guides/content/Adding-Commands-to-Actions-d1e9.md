@@ -27,6 +27,20 @@ The pipeline fails!
 </details></td></tr></tbody>
 </table>
 
+Change the same line by replacing the `const` but this time adding a semicolon to the end of the line:
+
+```javascript
+const json = await fs.readJson('./public/quotes.json');
+```
+
+If you run the linter in the terminal this is flagged as a **warning**.
+
+<table ><tbody ><tr><td><details><summary>Commit and push the code: what happens when it runs on the server?
+</summary><hr>
+The pipeline passes. Warnings don't trigger the non-zero exit code.
+</details></td></tr></tbody>
+</table>
+
 ## Test Your Understanding
 
 The script is making use of the package manifest to install the packages and run the linter.
