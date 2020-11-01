@@ -20,10 +20,28 @@ You will now see the commit you have just made. Click on this to see the details
 
 ## Test Your Understanding
 
-1. Create another step called **Env Vars**.
-2. Print out a list of all the environment variables.
-3. Test this by committing and pushing.
-4. Create another step called **GitHub Variables**.
-5. In this step print out the `GITHUB_WORKSPACE` and `GITHUB_EVENT_NAME` variables.
+<table ><tbody ><tr><td><details><summary>Create another step called <strong>Env Vars</strong> and use this to print out a list of all the environment variables. Test this by committing and pushing.
+</summary><hr>
+<pre>
+- name: env vars
+  run: printenv
+</pre>
+</details></td></tr></tbody>
+</table>
+
+<table ><tbody ><tr><td><details><summary>Create another step called <strong>GitHub Variables</strong> and in this step print out the <code>GITHUB_WORKSPACE</code> and <code>GITHUB_EVENT_NAME</code> variables.
+</summary><hr>
+<pre>
+- name: GitHub Variables
+  run: |
+    echo $GITHUB_WORKSPACE
+    echo $GITHUB_EVENT_NAME
+</pre>
+</details></td></tr></tbody>
+</table>
+
+4. 
 
 > Hint: indentation is very important in yaml files. You can use a [YAML Checker]](https://yamlchecker.com) to make sure your indentation and overall syntax is valid before committing and pushing.
+
+Before continuing disable this action by changing the branches from `['*']` to `['none']`

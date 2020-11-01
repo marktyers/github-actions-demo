@@ -5,9 +5,9 @@ name: Single-Stage
 
 on:
   push:
-    branches: ['none']
+    branches: ['*']
   pull_request:
-    branches: ['none']
+    branches: ['*']
 jobs:
   Linter:
     runs-on: ubuntu-latest
@@ -17,5 +17,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: npm install
-      - run: npm run linter
+      - name: install node packages
+        run: npm install
+      - name: run the linter
+        run: npm run linter

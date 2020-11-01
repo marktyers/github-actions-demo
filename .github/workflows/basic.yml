@@ -18,9 +18,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: env vars
-        run: printenv
-      - name: GitHub Variables
-        run: |
-          echo $GITHUB_WORKSPACE
-          echo $GITHUB_EVENT_NAME

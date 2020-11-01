@@ -415,7 +415,23 @@
   {
    "id": "d1e92bb2-6537-af45-5695-121a7dd291f6",
    "title": "Adding Commands to Actions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".github/workflows/single-stage.yml",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Adding-Commands-to-Actions-d1e9.md",
