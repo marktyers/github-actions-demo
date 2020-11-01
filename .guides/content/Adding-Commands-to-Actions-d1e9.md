@@ -13,6 +13,20 @@ Before continuing enable this action by changing the branches from `['none']` to
 
 Now make a commit and push to see how the action gets run on the server.
 
+Change line 21 in `index.js` to declare `json` as a variable and not as a constant:
+
+```javascript
+let json = await fs.readJson('./public/quotes.json')
+```
+
+If you run the linter in the terminal this is flagged as an **error**.
+
+<table ><tbody ><tr><td><details><summary>Commit and push the code: what happens when it runs on the server?
+</summary><hr>
+The pipeline fails!
+</details></td></tr></tbody>
+</table>
+
 ## Test Your Understanding
 
 The script is making use of the package manifest to install the packages and run the linter.
@@ -20,7 +34,12 @@ The script is making use of the package manifest to install the packages and run
 <table ><tbody ><tr><td><details><summary>Modify the script so that it only installs the linter. Run the linter by passing the path to the <code>eslint</code> executable.
 </summary><hr>
 <pre>
-
+- name: install the linter
+  run: npm install eslint
+- name: run the linter
+  run: ./node_modules/.bin/eslint .
 </pre>
 </details></td></tr></tbody>
 </table>
+
+Before continuing disable this action by changing the branches from `['*']` to `['none']`
