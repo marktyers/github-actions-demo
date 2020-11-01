@@ -5,8 +5,7 @@ name: Basic
 
 on:
   push:
-    branches:
-	  - '*'
+    branches: ['*']
 
 jobs: # the name of the workflow
   build: # the name of the job (can be more than one)
