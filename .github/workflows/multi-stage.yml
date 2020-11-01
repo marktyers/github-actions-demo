@@ -31,7 +31,5 @@ jobs:
       - name: Use NodeJS
         with:
           node-version: 14.x
-      - name: install testing tools
-        run: npm install ava
-      - name: run unit tests
-        run: npm test
+      - run: npm install ava
+      - run: npm test
