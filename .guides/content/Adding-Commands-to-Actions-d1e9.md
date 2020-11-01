@@ -23,7 +23,7 @@ If you run the linter in the terminal this is flagged as an **error**.
 
 <table ><tbody ><tr><td><details><summary>Commit and push the code: what happens when it runs on the server?
 </summary><hr>
-The pipeline fails!
+The pipeline fails! If you drill down into the details you will see that there are two annotations. The first lets you know that the command triggered an error and the second that the pipeline failed.
 </details></td></tr></tbody>
 </table>
 
@@ -37,7 +37,7 @@ If you run the linter in the terminal this is flagged as a **warning**.
 
 <table ><tbody ><tr><td><details><summary>Commit and push the code: what happens when it runs on the server?
 </summary><hr>
-The pipeline passes. Warnings don't trigger the non-zero exit code.
+The pipeline passes. Warnings don't trigger the non-zero exit code. If you examine the logs on the server you will see that the annotation flags up the warning.
 </details></td></tr></tbody>
 </table>
 

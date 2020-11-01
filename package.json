@@ -7,6 +7,12 @@
   "engines": {
     "node": "14.x"
   },
+  "ava": {
+	"verbose": true,
+	"require": [
+	  "esm"
+	]
+  },
   "scripts": {
     "start": "node index.js",
     "jsdoc": "node_modules/.bin/jsdoc -c jsdoc.conf",
