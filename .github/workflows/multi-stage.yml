@@ -24,12 +24,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo This is stage 2
-  Unit-Testing:
+  Unit-Tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use NodeJS
+        uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: npm install ava
+      - run: npm install
       - run: npm test
