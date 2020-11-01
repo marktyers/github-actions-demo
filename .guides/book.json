@@ -122,6 +122,18 @@
      "title": "Running an Action",
      "pageId": "835d3198-aab8-ce54-ff7b-67c19a125527",
      "type": "page"
+    },
+    {
+     "id": "b240b5de-8f6b-20ab-6722-928ff32703fa",
+     "title": "Adding Commands to Actions",
+     "pageId": "d1e92bb2-6537-af45-5695-121a7dd291f6",
+     "type": "page"
+    },
+    {
+     "id": "9e188cf2-ff11-5fb2-4cf7-e09c57a2efaf",
+     "title": "Multi-Stage Actions",
+     "pageId": "7e26711c-ca8c-e1b0-d87a-1e963fcff243",
+     "type": "page"
     }
    ]
   }

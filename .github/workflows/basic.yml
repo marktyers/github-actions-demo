@@ -7,15 +7,15 @@ on:
   push:
     branches: ['*']
 
-jobs: # the name of the workflow
-  build: # the name of the job (can be more than one)
+jobs:
+  Test:
     runs-on: ubuntu-latest
-    steps: # the tasks that will be executed as part of the job
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2 # checks out the repository
+    steps:
+      - uses: actions/checkout@v2
       - name: Run a one-line script
         run: echo Hello, world!
       - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - run: echo Add other actions to build,
+      - run: echo test, and deploy your project.
+	  - name: The environment variables
+	  - run: printenv
