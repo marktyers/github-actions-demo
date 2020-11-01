@@ -5,9 +5,9 @@ name: Single-Stage
 
 on:
   push:
-    branches: ['master']
+    branches: ['none']
   pull_request:
-    branches: ['master']
+    branches: ['none']
 jobs:
   Linter:
     runs-on: ubuntu-latest

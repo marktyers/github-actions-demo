@@ -393,7 +393,7 @@
      "action": "close"
     },
     {
-     "path": ".github/workflows/action.yml",
+     "path": ".github/workflows/basic.yml",
      "panel": 0,
      "action": "open"
     },

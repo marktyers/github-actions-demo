@@ -10,6 +10,20 @@ The example shown is simple but shows all the key parts you need to include.
 6. Now we describe the steps for the action to do. We can insert labels that describe each part of the process.
 7. Each step is now defined as lines in a shell script. In our example we are using the `echo` command to print to the console.
 
+If you want more than one command to run you need to use a slightly different syntax.
+
+Make a commit and push to the github server.
+
+You will see an **Actions** tab on your GitHub repository page. Click on this and you will see a list of workflows down the left hand side. If you look in this you will find your **Basic** workflow. Click on this to open it.
+
+You will now see the commit you have just made. Click on this to see the details of the Pipeline. Now the left-hand column displays the steps, in this case there is a single step called **Test**. If you click on the **Test** label you can see the steps. Each can be expanded to see the command run and the results.
+
 ## Test Your Understanding
 
-1. Create another label
+1. Create another step called **Env Vars**.
+2. Print out a list of all the environment variables.
+3. Test this by committing and pushing.
+4. Create another step called **GitHub Variables**.
+5. In this step print out the `GITHUB_WORKSPACE` and `GITHUB_EVENT_NAME` variables.
+
+> Hint: indentation is very important in yaml files. You can use a [YAML Checker]](https://yamlchecker.com) to make sure your indentation and overall syntax is valid before committing and pushing.
