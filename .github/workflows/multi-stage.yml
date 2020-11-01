@@ -22,5 +22,5 @@ jobs:
   Step-2:
     runs-on: ubuntu-latest
 	steps:
-	  - uses: actions/checkout@v2
-	  - run: echo This is stage 2
+      - uses: actions/checkout@v2
+      - run: echo This is stage 2
