@@ -1,0 +1,123 @@
+{
+ "name": "DevOps",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "3892bf4c-7c23-adf4-f135-2edef8b0e7f5",
+   "type": "page",
+   "pageId": "3892bf4c-7c23-adf4-f135-2edef8b0e7f5"
+  },
+  {
+   "title": "Setup",
+   "id": "ecd905cc-b24b-2543-f8ef-e8db2d567b6d",
+   "type": "page",
+   "pageId": "ecd905cc-b24b-2543-f8ef-e8db2d567b6d"
+  },
+  {
+   "title": "Deployment",
+   "id": "42e157a6-401a-2637-4d27-b451f375f711",
+   "type": "section",
+   "children": [
+    {
+     "title": "Deployment",
+     "id": "02b8e071-bfae-c533-be0a-44d4e1c0fe57",
+     "type": "page",
+     "pageId": "2ae8a116-f344-c289-35be-3a029b9b5c1e"
+    },
+    {
+     "title": "Deploying an App",
+     "id": "819a8581-1067-461e-8f7f-705174057cea",
+     "type": "page",
+     "pageId": "202a276a-b45c-5673-c23f-f302bff669ba"
+    },
+    {
+     "title": "Deploying Using an API Key",
+     "id": "239ed893-f20e-f9b2-d05e-aff428ce3068",
+     "type": "page",
+     "pageId": "ee2bffe1-77d4-7e9c-74a2-886b798a7786"
+    }
+   ]
+  },
+  {
+   "title": "Shell Scripts",
+   "id": "92e0d2ba-7d0f-c5b5-0e99-ebb540a4f7bb",
+   "type": "section",
+   "children": [
+    {
+     "title": "Shell Scripts",
+     "id": "fb5d5ed3-2308-e573-b27c-52110e2f6c1d",
+     "type": "page",
+     "pageId": "e7839c85-7a53-f997-fcc2-ed0b56e79e47"
+    },
+    {
+     "title": "Running Shell Scripts",
+     "id": "a24dd666-3d2d-ee41-df21-2261f1c70dc3",
+     "type": "page",
+     "pageId": "4fe1aec2-7037-45e7-3205-46eaec81fd4c"
+    },
+    {
+     "title": "Variables",
+     "id": "a80e6569-8bfb-d6b8-44ea-f393af3c4a47",
+     "type": "page",
+     "pageId": "e559c3f2-1fae-bf0f-585b-0826fb1aff8d"
+    },
+    {
+     "title": "Environment Variables",
+     "id": "58a2ebdc-5e1f-ced6-3f90-6ff8ece2d8e5",
+     "type": "page",
+     "pageId": "b6319d59-1007-2659-6edf-4a3ec1c34279"
+    },
+    {
+     "title": "Standard I/O",
+     "id": "ffc8fdf2-8232-e953-4491-c58c7284ccb0",
+     "type": "page",
+     "pageId": "bb94bec0-63ea-7a2e-4208-2684a8479c23"
+    },
+    {
+     "title": "Conditionals",
+     "id": "ff9ffa64-8bec-9b20-8c0e-2e24ec22e257",
+     "type": "page",
+     "pageId": "c88587a9-d774-f5df-d037-45383205c587"
+    }
+   ]
+  },
+  {
+   "title": "Git Hooks",
+   "id": "700f4117-43ee-67df-ade0-bccf4cfc1fc0",
+   "type": "section",
+   "children": [
+    {
+     "title": "Git Hooks",
+     "id": "9c6394bf-56ec-2c85-b82a-2aee93bc2007",
+     "type": "page",
+     "pageId": "125736ac-8d74-a65d-63b9-afcbb02947d1"
+    },
+    {
+     "title": "Commit Hooks",
+     "id": "9b6b8350-f613-ed3c-85c0-ba3287a498d7",
+     "type": "page",
+     "pageId": "8e6db8f6-644a-365e-db28-ace2a948549c"
+    },
+    {
+     "title": "Merge Hooks",
+     "id": "7d1044ed-4fc7-7069-48d6-2c13b763217d",
+     "type": "page",
+     "pageId": "db88f919-4974-7b68-f8ed-697d4227304d"
+    }
+   ]
+  },
+  {
+   "title": "GitHub Actions",
+   "id": "b9499776-df41-14bd-b418-ca3c29b609a5",
+   "type": "section",
+   "children": [
+    {
+     "id": "43a52578-72f6-97a0-3c0a-0c659699e562",
+     "title": "Continuous Integration",
+     "pageId": "09a93f3c-a78f-0349-d768-8b8edac48326",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
