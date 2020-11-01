@@ -1,7 +1,7 @@
 
 # .github/workflows/ci.yml
 
-name: CI
+name: Single-Stage
 
 on:
   push:

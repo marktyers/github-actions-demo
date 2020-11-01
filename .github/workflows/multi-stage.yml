@@ -1,7 +1,7 @@
 
 # .github/workflows/multi-stage.yml
 
-name: CI
+name: Multi-Stage
 
 on:
   push:
